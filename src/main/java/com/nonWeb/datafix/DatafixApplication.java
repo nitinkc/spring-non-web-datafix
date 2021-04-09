@@ -9,5 +9,4 @@ public class DatafixApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DatafixApplication.class, args);
 	}
-
 }

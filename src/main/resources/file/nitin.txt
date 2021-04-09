@@ -1,0 +1,12 @@
+###########################################################################
+2021-04-08T23:09:32.229529
+Total # of Strings 172825 with total # Partition is 173
+Batch Size : 1000
+Total Time Taken in parallel : 7237
+Total Time Taken in sequential : 54495
+###########################################################################
+Thu, Apr, 08 2021 23:11:55
+Total # of Strings 172825 with total # Partition is 173
+Batch Size : 1000
+Total Time Taken in parallel : 6675
+Total Time Taken in sequential : 25199
