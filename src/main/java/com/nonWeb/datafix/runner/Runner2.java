@@ -10,7 +10,7 @@ import static com.nonWeb.datafix.util.DateTimeUtil.getLocalDateTime;
 
 @Component
 @Slf4j
-@Order(value = 2)
+//@Order(value = 2)
 @ConditionalOnExpression("${myDataFix2:false}")
 public class Runner2 implements CommandLineRunner {
     @Override

@@ -11,7 +11,7 @@ import static com.nonWeb.datafix.util.DateTimeUtil.getLocalDateTime;
 
 @Component
 @Slf4j
-@Order(value = 3)
+//@Order(value = 3)
 @ConditionalOnExpression("${myDataFix3:false}")
 public class Runner3 implements ApplicationRunner {
     @Override
