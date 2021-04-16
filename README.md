@@ -1,17 +1,23 @@
 # spring-non-web-datafix
 
-Execute as gradle boot run
-./gradlew bootRun
+### Execute as gradle boot run
+`./gradlew bootRun`
 
+### Execute Jar
+```shell
+gradle clean build --x test --refresh-dependencies
+
+# Pass spring arguments with -D 
+java -jar -DmyDataFix2=true -DmyDataFix3=true -DmyDataFix3=true build/libs/non-web-spring-datafix-0.0.1-SNAPSHOT.jar ```
 ## Execute Datafix, execution order and control which Data fix to run
 
 Set the respective Datafix property true in application.yml that is intended to be run. For Example
 
 ```shell
 myDataFix1: false
-myDataFix2: true
-myDataFix3: true
-myDataFix4: true
+myDataFix2: false 
+myDataFix3: false 
+myDataFix4: false 
 
 ````
 

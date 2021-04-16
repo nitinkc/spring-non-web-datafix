@@ -10,3 +10,9 @@ Total # of Strings 172825 with total # Partition is 173
 Batch Size : 1000
 Total Time Taken in parallel : 6675
 Total Time Taken in sequential : 25199
+###########################################################################
+Thu, Apr, 15 2021 18:32:05
+Total # of Strings 172825 with total # Partition is 173
+Batch Size : 1000
+Total Time Taken in parallel : 6740
+Total Time Taken in sequential : 30359

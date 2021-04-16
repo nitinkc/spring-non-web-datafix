@@ -17,7 +17,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	compile group: 'com.google.guava', name: 'guava', version: '23.5-jre'
-	compile group: 'org.springframework.cloud', name: 'spring-cloud-gcp-starter-data-spanner'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+//	compile group: 'org.springframework.cloud', name: 'spring-cloud-gcp-starter-data-spanner'
 }
 
 test {
