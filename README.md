@@ -8,7 +8,12 @@
 gradle clean build --x test --refresh-dependencies
 
 # Pass spring arguments with -D 
-java -jar -DmyDataFix2=true -DmyDataFix3=true -DmyDataFix3=true build/libs/non-web-spring-datafix-0.0.1-SNAPSHOT.jar ```
+java -jar -DmyDataFix2=true -DmyDataFix3=true -DmyDataFix3=true build/libs/non-web-spring-datafix-0.0.1-SNAPSHOT.jar 
+
+# Pass spring arguments with -D and commandline arguments after jar file. same arguments are shared by each class that 
+# extents CommandLineRunner & ApplicationRunner
+java -jar -DmyDataFix2=true -DmyDataFix3=true -DmyDataFix3=true build/libs/non-web-spring-datafix-0.0.1-SNAPSHOT.jar args1 args2 args3 a b c d     
+```
 ## Execute Datafix, execution order and control which Data fix to run
 
 Set the respective Datafix property true in application.yml that is intended to be run. For Example

@@ -17,6 +17,7 @@ public class Runner3 implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         log.info("Starting Runner 3");
+        args.getNonOptionArgs().forEach(arg -> log.info("arg :: " + arg));
         //Do processing
 
         log.info(("Ending Runner 3 at : " + getLocalDateTime()));
